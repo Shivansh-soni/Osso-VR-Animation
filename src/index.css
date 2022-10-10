@@ -10,14 +10,6 @@ body {
 }
 
 #App {
-
   display: flex;
   justify-content: center;
-}
-
-@media screen and (max-width: 1024px) {
-  #App {
-    position: absolute;
-    top: 0px;
-  }
 }
