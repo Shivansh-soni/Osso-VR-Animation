@@ -1,10 +1,9 @@
 import "./App.css";
 import "@lottiefiles/lottie-player";
-import An1 from "./An1.json";
-import React, { useEffect, useState, useRef } from "react";
+
+import React, { useEffect } from "react";
 import { create } from "@lottiefiles/lottie-interactivity";
 function App() {
-  const [loading, setLoading] = useState(false);
   const myRef = React.useRef();
   useEffect(() => {
     const timer = setTimeout(() => {
