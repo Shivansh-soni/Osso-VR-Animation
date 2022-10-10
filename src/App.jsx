@@ -17,7 +17,6 @@ function App() {
             type: "seek",
             frames: [-85, 155],
           },
-          setLoading(true),
         ],
       });
     }, 1000);
